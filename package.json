@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm run build:dev",
+    "build:dev": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,8 +26,8 @@
   "devDependencies": {
     "@types/react": "^16.0.34",
     "@types/react-native": "^0.51.10",
-    "@types/typescript": "^2.0.0",
     "@types/webpack": "^3.8.2",
+    "awesome-typescript-loader": "^3.4.1",
     "css-loader": "^0.28.8",
     "source-map-loader": "^0.2.3",
     "style-loader": "^0.19.1",
