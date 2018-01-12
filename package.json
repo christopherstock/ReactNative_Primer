@@ -1,0 +1,35 @@
+{
+  "name": "ReactNative_Primer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopherstock/ReactNative_Primer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christopherstock/ReactNative_Primer/issues"
+  },
+  "homepage": "https://github.com/christopherstock/ReactNative_Primer#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-native": "^0.52.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.34",
+    "@types/react-native": "^0.51.10",
+    "@types/typescript": "^2.0.0",
+    "@types/webpack": "^3.8.2",
+    "css-loader": "^0.28.8",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.19.1",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  }
+}
