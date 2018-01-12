@@ -2,9 +2,12 @@
     import * as React from 'react';
     import { Image, ScrollView, Text } from 'react-native';
 
+    /*******************************************************************************************************************
+    *   An example class.
+    *******************************************************************************************************************/
     export class Main extends React.Component
     {
-        render()
+        public render() : JSX.Element
         {
             return (
                 <ScrollView>
